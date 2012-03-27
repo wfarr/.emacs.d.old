@@ -20,3 +20,5 @@
   "Set the standard font face."
   (interactive)
   (wfarr-set-font-size *wfarr-default-font-size*))
+
+(wfarr-standard-font)

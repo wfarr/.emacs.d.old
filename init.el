@@ -13,6 +13,8 @@
     starter-kit-lisp
     starter-kit-ruby
     starter-kit-bindings
+    puppet-mode
+    clojure-mode
     )
   "A list of packages to ensure are installed at launch.")
 

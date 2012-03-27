@@ -1,1 +1,1 @@
-(enable-theme 'tango-dark)
+;; empty for meow

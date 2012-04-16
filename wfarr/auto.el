@@ -8,5 +8,7 @@
 	    (cons (cons pattern mode) auto-mode-alist)))))
 
 
-(make-auto "\\.clj$"   'clojure-mode)
-(make-auto "\\.pp$"    'puppet-mode)
+(make-auto "\\.clj$"                        'clojure-mode)
+(make-auto "\\.pp$"                         'puppet-mode)
+(make-auto "\\.feature$"                    'feature-mode)
+(make-auto "\\.\\(md\\|mkdn\\|markdown\\)$" 'markdown-mode)

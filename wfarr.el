@@ -1,3 +1,3 @@
 ;; empty for meow
 
-(setq global-hl-line-mode -1)
+(setq global-hl-line-mode nil)

@@ -1,3 +1,3 @@
 ;; empty for meow
 
-(setq global-hl-line-mode nil)
+(remove-hook 'prog-mode-hook 'esk-turn-on-hl-line-mode)

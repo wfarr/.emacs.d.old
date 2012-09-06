@@ -1,5 +1,5 @@
-(setq *wfarr-font-size* 14)
-(setq *wfarr-default-font-size* 14)
+(setq *wfarr-font-size* 16)
+(setq *wfarr-default-font-size* 16)
 
 (defun wfarr-set-font-size (points)
   "Set the font size to the given points."

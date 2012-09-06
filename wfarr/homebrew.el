@@ -1,2 +1,2 @@
-(setenv "PATH" (concat  "/usr/local/bin:" (getenv "PATH")))
-(setq exec-path (cons "/usr/local/bin" exec-path))
+(setenv "PATH" (concat  "/opt/github/homebrew/bin:" (getenv "PATH")))
+(setq exec-path (cons "/opt/github/homebrew/bin" exec-path))

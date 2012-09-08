@@ -12,3 +12,4 @@
 (make-auto "\\.pp$"                         'puppet-mode)
 (make-auto "\\.feature$"                    'feature-mode)
 (make-auto "\\.\\(md\\|mkdn\\|markdown\\)$" 'markdown-mode)
+(make-auto "\\.mustache$"                   'mustache-mode)

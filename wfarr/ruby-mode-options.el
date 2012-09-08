@@ -7,5 +7,5 @@
              )
           )
 
-(setenv "PATH" ("/opt/github/rbenv/shims:/opt/github/rbenv/bin:" (getenv "PATH")))
-(setq exec-path (cons "/opt/github/rbenv/shims" (cons "/opt/github/rbenv/bin") exec-path))
+(setenv "PATH" (concat "/opt/github/rbenv/shims:/opt/github/rbenv/bin:" (getenv "PATH")))
+(setq exec-path (cons "/opt/github/rbenv/shims" (cons "/opt/github/rbenv/bin" exec-path)))

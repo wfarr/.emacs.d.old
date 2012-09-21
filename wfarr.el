@@ -1,6 +1,6 @@
 ;; empty for meow
 
-(add-to-list 'load-path "vendor/mustache-mode")
+(add-to-list 'load-path "/Users/wfarr/.emacs.d/vendor/mustache-mode")
 
 (require 'mustache-mode)
 
